@@ -427,200 +427,81 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
       <main id="main">
         <!-- Home Section -->
         <section
-          class="page-section bg-gradient-gray-light-1 bg-scroll overflow-hidden"
+          class="page-section bg-dark-alpha-30 light-content parallax-5"
+          style="background-image: url(images/demo-strong/image3.jpeg)"
+          id="home"
         >
-          <!-- Background Shape -->
-          <div class="bg-shape-1 wow fadeIn">
-            <img src="images/demo-fancy/bg-shape-1.svg" alt="" />
-          </div>
-          <!-- End Background Shape -->
+          <div class="container position-relative pt-sm-30">
+            <!-- Home Section Content -->
+            <div class="home-content text-center">
+              <h1 class="section-title-medium mb-0">
+                <span
+                  id="blog-title"
+                  class="wow charsAnimIn"
+                  data-splitting="chars"
+                >
+                  <!-- Title will be populated here -->
+                </span>
+              </h1>
 
-          <div class="container position-relative pt-10 pt-sm-40 text-center">
-            <div class="row">
-              <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                <h1 class="hs-title-10 mb-10">
-                  <span class="wow charsAnimIn" data-splitting="chars">
-                    Blog Title
-                  </span>
-                </h1>
-
-                 <!-- Author, Categories, Comments -->
-                 <div class="blog-item-data mt-30 mt-sm-10 mb-0 wow fadeInUp" data-wow-delay="0.2s">
-                  <div class="d-inline-block me-3">
-                      <a href="#"><i class="mi-clock size-16"></i><span class="visually-hidden">Date:</span> December 25</a>
-                  </div>
-                  <div class="d-inline-block me-3">
-                      <a href="#"><i class="mi-user size-16"></i><span class="visually-hidden">Author:</span> John Doe</a>
-                  </div>
-                 
+              <!-- Author, Categories, Comments -->
+              <div
+                class="blog-item-data mt-30 mt-sm-10 mb-0 wow fadeInUp"
+                data-wow-delay="0.2s"
+              >
+                <div class="d-inline-block me-3">
+                  <a href="#" id="blog-date">
+                    <i class="mi-clock size-16"></i>
+                    <span class="visually-hidden">Date:</span>
+                    <!-- Published date will be populated here -->
+                  </a>
+                </div>
+                <div class="d-inline-block me-3">
+                  <a href="#" id="blog-author">
+                    <i class="mi-user size-16"></i>
+                    <span class="visually-hidden">Author:</span>
+                    <!-- Author name will be populated here -->
+                  </a>
+                </div>
               </div>
               <!-- End Author, Categories, Comments -->
-              </div>
             </div>
+            <!-- End Home Section Content -->
           </div>
         </section>
         <!-- End Home Section -->
 
         <!-- Section -->
-        <section class="page-section blog-inner">
+        <section class="page-section">
           <div class="container relative">
             <div class="row">
               <!-- Content -->
-              <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+              <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                 <!-- Post -->
                 <div class="blog-item mb-80 mb-xs-40">
                   <div class="blog-item-body">
-                    <div class="mb-40 mb-xs-30 text-center">
-                      <img
-                        src="images/blog/post-prev-1.jpg"
-                        alt="Image Description"
-                        class="round"
-                      />
+                    <div class="mb-40 mb-xs-30">
+                      <img id="blog-image" src="" alt="Image Description" />
                     </div>
-
-                    <p>
-                      Acute pancreatitis is a sudden inflammation of the
-                      pancreas that can cause severe abdominal pain and other
-                      complications. Surgery for acute pancreatitis is often
-                      considered when there is a need to remove infected or dead
-                      tissue, drain abscesses, or address complications that
-                      cannot be managed by medication alone.
-                    </p>
-
-                    <h4 class="blog-page-title">When is Surgery Needed?</h4>
-
-                    <p>
-                      Surgery for acute pancreatitis is typically recommended in
-                      the following situations:
-                    </p>
-
-                    <ul>
-                      <li>
-                        Necrotizing Pancreatitis: When parts of the pancreas die
-                        due to lack of blood supply, surgery may be necessary to
-                        remove the dead tissue.
-                      </li>
-                      <li>
-                        Pancreatic Abscess: If a collection of pus forms in the
-                        pancreas, it needs to be drained surgically to prevent
-                        infection from spreading.
-                      </li>
-                      <li>
-                        Gallstone-Induced Pancreatitis: In cases where
-                        gallstones cause the pancreatitis, surgery might involve
-                        removing the gallbladder (cholecystectomy) to prevent
-                        future attacks.
-                      </li>
-                      <li>
-                        Persistent Symptoms: If symptoms persist despite
-                        conservative treatments, surgery may be required to
-                        address the underlying issue.
-                      </li>
-                    </ul>
-
-                    <h4 class="blog-page-title">Types of Surgery</h4>
-                    <ul>
-                      <li>
-                        Debridement: This involves the removal of dead or
-                        infected pancreatic tissue.
-                      </li>
-                      <li>
-                        Drainage Procedures: For abscesses or fluid collections,
-                        drains may be surgically placed to remove the buildup.
-                      </li>
-                      <li>
-                        Cholecystectomy: If gallstones are the cause, the
-                        gallbladder is removed.
-                      </li>
-                      <li>
-                        Minimally Invasive Surgery: Laparoscopic techniques may
-                        be used to reduce recovery time and minimize scarring.
-                      </li>
-                    </ul>
-
-                    <h4 class="blog-page-title">Preparation for Surgery</h4>
-
-                    <p>
-                      Before undergoing surgery for acute pancreatitis, Dr.
-                      Jenit Gandhi will perform a thorough evaluation, including
-                      imaging studies like CT scans or MRIs, to assess the
-                      extent of the disease. You may need to fast for a certain
-                      period before the procedure, and preoperative medications
-                      or antibiotics may be prescribed.
-                    </p>
-
-                    <h4 class="blog-page-title">Recovery & Aftercare</h4>
-
-                    <p>
-                      Post-surgery, patients will require close monitoring in
-                      the hospital. Recovery can vary depending on the extent of
-                      the surgery and the individual’s overall health.
-                      Typically, patients may need to stay in the hospital for
-                      several days to weeks. Follow-up appointments are crucial
-                      to monitor healing and manage any potential complications.
-                    </p>
-
-                    <h4 class="blog-page-title">Risks and Complications</h4>
-
-                    <p>
-                      As with any surgery, there are risks involved, including
-                      bleeding, infection, and potential damage to surrounding
-                      organs. Dr. Gandhi will discuss these risks with you and
-                      provide strategies to minimize them.
-                    </p>
-
-                    <h4 class="blog-page-title">
-                      Why consult Dr. Jenit Gandhi for Acute Pancreatitis ?
-                    </h4>
-
-                    <p>
-                      Dr. Jenit Gandhi is an experienced surgeon specializing in
-                      pancreatic and hepatobiliary surgeries. With a
-                      compassionate approach and a commitment to utilizing the
-                      latest surgical techniques, Dr. Gandhi ensures the highest
-                      standard of care for patients suffering from acute
-                      pancreatitis.
-                    </p>
+                    <div id="blog-content">
+                      <!-- Blog content will be populated here -->
+                    </div>
                   </div>
                 </div>
                 <!-- End Post -->
+
+                <!-- Add Comment -->
+                <!-- Leave comment form can remain as is -->
               </div>
               <!-- End Content -->
             </div>
           </div>
         </section>
         <!-- End Section -->
-<!--        
+
+        <!-- Divider -->
         <hr class="mt-0 mb-0" />
-       
-
-        <section class="page-section">
-          <div class="container relative">
-            <div class="row mt-n60">
-
-              <div class="col-sm-6 col-lg-3 mt-60">
-              
-                <div class="widget mb-0">
-                  <h3 class="widget-title">Tags</h3>
-
-                  <div class="widget-body">
-                    <div class="tags">
-                      <a href="">Design</a>
-                      <a href="">Portfolio</a>
-                      <a href="">Digital</a>
-                      <a href="">Branding</a>
-                      <a href="">Theme</a>
-                      <a href="">Clean</a>
-                      <a href="">UI & UX</a>
-                      <a href="">Love</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
-      
+        <!-- End Divider -->
       </main>
 
       <!-- Footer -->
@@ -720,7 +601,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                 <!-- End Footer Widget -->
 
                 <!-- Footer Widget -->
-                 <!-- <div class="col-sm-4 mt-30">
+                <!-- <div class="col-sm-4 mt-30">
                   <h3 class="fw-title">Legal & Press</h3>
 
                   <ul class="fw-menu clearlist">
@@ -741,7 +622,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
             </div>
 
             <div class="col-md-7 offset-md-1 offset-lg-2 clearfix">
-              <b>Created By : <a href="https://ignitax.com/" target="_blank">IGNITAX</a></b>
+              <b
+                >Created By :
+                <a href="https://ignitax.com/" target="_blank">IGNITAX</a></b
+              >
 
               <!-- Back to Top Link -->
               <div class="local-scroll float-end mt-n20 mt-sm-10">
@@ -761,6 +645,99 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
     <!-- End Page Wrap -->
 
     <!-- JS -->
+    <script src="https://unpkg.com/contentful@latest/dist/contentful.browser.min.js"></script>
+
+    <script>
+      // Set up Contentful client
+      const client = contentful.createClient({
+        space: "yhn9yzc6r9ej", // Replace with your Contentful Space ID
+        accessToken: "Z7B88iQaBI_bNHp-eNYjyevmAPazbSA0cJc7xjhs5vE", // Replace with your Content Delivery API - access token
+      });
+
+      // Function to get the slug from the URL
+      function getSlugFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get("slug");
+      }
+
+      // Function to fetch and display the blog post
+      document.addEventListener("DOMContentLoaded", () => {
+        const slug = getSlugFromUrl();
+
+        if (!slug) {
+          document.getElementById("main").innerHTML = "<p>Blog not found.</p>";
+          return;
+        }
+
+        // Fetch the blog post by slug
+        client
+          .getEntries({
+            content_type: "drJenitGandhiBlog",
+            "fields.slug": slug,
+          })
+          .then((response) => {
+            if (response.items.length > 0) {
+              const blog = response.items[0].fields;
+
+              // Populate the blog detail page with the blog data
+              document.getElementById("blog-title").textContent = blog.title;
+              document.getElementById("blog-date").textContent = new Date(
+                blog.publishedDate
+              ).toLocaleDateString();
+              document.getElementById("blog-author").textContent = blog.author;
+              document.getElementById("blog-image").src =
+                blog.image.fields.file.url;
+              document.getElementById("blog-image").alt = blog.title;
+
+              // Convert rich text content to HTML and populate it
+              document.getElementById("blog-content").innerHTML =
+                documentToHtmlString(blog.content);
+            } else {
+              document.getElementById("main").innerHTML =
+                "<p>Blog not found.</p>";
+            }
+          })
+          .catch((error) => {
+            console.error("Error fetching blog post:", error);
+            document.getElementById("main").innerHTML =
+              "<p>Error loading blog post. Please try again later.</p>";
+          });
+      });
+
+      // Function to convert Contentful rich text to HTML
+      function documentToHtmlString(richText) {
+        let html = "";
+
+        // Basic conversion for common node types
+        richText.content.forEach((node) => {
+          switch (node.nodeType) {
+            case "paragraph":
+              html += `<p>${node.content
+                .map((item) => item.value)
+                .join(" ")}</p>`;
+              break;
+            case "unordered-list":
+              html += `<ul>${node.content
+                .map((item) => `<li>${item.content[0].content[0].value}</li>`)
+                .join("")}</ul>`;
+              break;
+            case "ordered-list":
+              html += `<ol>${node.content
+                .map((item) => `<li>${item.content[0].content[0].value}</li>`)
+                .join("")}</ol>`;
+              break;
+            case "heading-3":
+              html += `<h3>${node.content
+                .map((item) => item.value)
+                .join(" ")}</h3>`;
+              break;
+            // Handle other node types here
+          }
+        });
+
+        return html;
+      }
+    </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/plugins.js"></script>
